@@ -11,7 +11,7 @@ A web interface to open my apartment's door over internet using raspberry pi3, r
 [https://emojipedia.org/key/](https://emojipedia.org/key/)
 
 
-#### Forever-service library to add project as a service
+### Forever-service library to add project as a service
 
 [https://github.com/zapty/forever-service](https://github.com/zapty/forever-service)
 
@@ -20,7 +20,7 @@ A web interface to open my apartment's door over internet using raspberry pi3, r
 
 [https://howchoo.com/g/m2qwmte5nzk/how-to-use-a-relay-with-a-raspberry-pi](https://howchoo.com/g/m2qwmte5nzk/how-to-use-a-relay-with-a-raspberry-pi)
 
-#### Python-shell
+### Python-shell
 
 I used python-shell library to run python scripts over node.js
 
