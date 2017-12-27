@@ -1,16 +1,17 @@
 var io = require('socket.io')(8080);
 var PythonShell = require('python-shell');
-
-io.on('connection', function (socket) {
+var socket = io.on('connection', function (socket) {
   socket.on('opendoor', function (data) {
-    console.log('Signal received!');
+    socket.emit('success', 'Signal received');
 
     PythonShell.run('switchController.py', function (err) {
       if (err) throw err;
       console.log('finished');
-    });
+      socket.emit('success', 'Door is open');
 
+    });
   });
+
 });
 
 var http = require('http');
