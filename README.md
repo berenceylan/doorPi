@@ -2,7 +2,7 @@
 A web interface to open my apartment's door over internet using raspberry pi3, relay switch, node.js and python.
 
 ![schema](https://i.stack.imgur.com/cjDmA.png) 
-
+image credit: [stackexchange](https://raspberrypi.stackexchange.com/questions/74570/controlling-switches-from-both-raspberry-pi-relay-manual-home-automation)
 
 ## Links of used libraries 
 
