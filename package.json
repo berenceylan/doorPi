@@ -1,0 +1,24 @@
+{
+  "name": "doorProject",
+  "description": "Open door over internet using Raspberry & Relay switch",
+  "version": "1.0",
+  "keywords": [
+    "raspberry",
+    "python",
+    "nodejs",
+    "relay switch"
+  ],
+  "dependencies": {
+    "socket.io": "2.0.4",
+    "python-shell": "0.4.0",
+    "dotnetcurry/node.js-html-static-content": ""
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/berenceylan/doorProject.git"
+    }
+  ],
+  "author": "Beren Ceylan (@berenceylan)",
+  "license": "ISC"
+}
