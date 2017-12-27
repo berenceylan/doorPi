@@ -33,6 +33,7 @@ Content-type attribute must be declared when serving html sites over raspberry.
 This library is doing the thing.
 
 [http://www.dotnetcurry.com/nodejs/1144/nodejs-html-static-pages-website](http://www.dotnetcurry.com/nodejs/1144/nodejs-html-static-pages-website)
+
 [repo](https://github.com/dotnetcurry/node.js-html-static-content)
 
 
