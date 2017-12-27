@@ -1,6 +1,7 @@
 # doorProject
 A web interface to open my apartment's door over internet using raspberry pi3, relay switch, node.js and python.
 
+![schema](https://i.stack.imgur.com/cjDmA.png) 
 
 
 ## Links of used libraries 
