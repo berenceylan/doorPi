@@ -3,7 +3,7 @@ A web interface to open my apartment's door over internet using raspberry pi3, r
 
 ### Clicking the button opens the door
 
-![Clicking the button opens the door](http://prntscr.com/hswj4u)
+![Clicking the button opens the door](https://image.prntscr.com/image/UbVwEHqyTumI_3YrIq1Gow.png)
 
 ![schema](https://i.stack.imgur.com/cjDmA.png) 
 image credit: [stackexchange](https://raspberrypi.stackexchange.com/questions/74570/controlling-switches-from-both-raspberry-pi-relay-manual-home-automation)
