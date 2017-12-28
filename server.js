@@ -2,13 +2,10 @@ var io = require('socket.io')(8080);
 var PythonShell = require('python-shell');
 var socket = io.on('connection', function (socket) {
   socket.on('opendoor', function (data) {
-    socket.emit('success', 'Signal received');
-
+    io.sockets.emit('success', 'Signal received');
     PythonShell.run('switchController.py', function (err) {
       if (err) throw err;
-      console.log('finished');
-      socket.emit('success', 'Door is open');
-
+      io.sockets.emit('success', 'Door is opened by ' + socket.handshake.address.split(":")[3]);
     });
   });
 
